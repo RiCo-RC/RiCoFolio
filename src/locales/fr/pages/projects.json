@@ -1,15 +1,85 @@
 {
-	"heroTitle": "Projets",
-	"heroDescription": "Une sélection de projets personnels et professionnels en développement, cybersécurité et IA.",
-	"filterTitle": "Filtrer les projets",
-	"totalProjects": "projets",
-	"list": {
-		"ricofolio": {
-			"title": "RiCoFolio",
-			"desc": {
-				"short": "Portfolio personnel présentant mes projets, compétences et expériences en développement, cybersécurité et IA, avec une interface moderne, responsive et orientée performance.",
-				"long": ""
-			}
-		}
-	}
+  "heroTitle": "Projets",
+  "heroDescription": "Une sélection de projets personnels et professionnels en développement, cybersécurité et IA.",
+  "filterTitle": "Filtrer les projets",
+  "totalProjects": "projets",
+  "list": {
+    "ricofolio": {
+      "title": "RiCoFolio",
+      "desc": {
+        "short": "Portfolio personnel présentant mes projets, compétences et expériences en développement, cybersécurité et IA, avec une interface moderne, responsive et orientée performances.",
+        "long": ""
+      }
+    },
+    "ricofolio2": {
+      "title": "RiCoFolio V2",
+      "desc": {
+        "short": "Portfolio personnel présentant mes projets, compétences et expériences en développement, cybersécurité et IA, avec une interface moderne, responsive et orientée performances.",
+        "long": ""
+      }
+    },
+    "candy": {
+      "title": "Candy",
+      "desc": {
+        "short": "Projet de formation : réalisation d’un jeu mobile similaire à Candy Crush.",
+        "long": ""
+      }
+    },
+    "password-checker": {
+      "title": "Password Strength Checker",
+      "desc": {
+        "short": "Un outil simple pour analyser la robustesse d’un mot de passe et détecter les faiblesses courantes.",
+        "long": ""
+      }
+    },
+    "port-scanner": {
+      "title": "Mini Port Scanner",
+      "desc": {
+        "short": "Un scanner de ports basique permettant de détecter les ports ouverts sur une machine.",
+        "long": ""
+      }
+    },
+    "phishing-detector": {
+      "title": "Phishing URL Detector",
+      "desc": {
+        "short": "Un outil qui analyse les URL pour détecter les tentatives de phishing.",
+        "long": ""
+      }
+    },
+    "simple-chatbot": {
+      "title": "Simple Chatbot",
+      "desc": {
+        "short": "Un chatbot basique capable de répondre à des questions simples.",
+        "long": ""
+      }
+    },
+    "sentiment-analysis": {
+      "title": "Sentiment Analysis Tool",
+      "desc": {
+        "short": "Un outil d’analyse de sentiment permettant de classifier des textes en positif ou négatif.",
+        "long": ""
+      }
+    },
+    "spam-classifier": {
+      "title": "Spam Email Classifier",
+      "desc": {
+        "short": "Un classificateur d’e-mails permettant de détecter les spams.",
+        "long": ""
+      }
+    },
+    "smart-spam-detector": {
+      "title": "Smart Spam Detector",
+      "desc": {
+        "short": "Un détecteur de spam combinant cybersécurité et machine learning.",
+        "long": ""
+      }
+    },
+    "user-anomaly-detection": {
+      "title": "User Anomaly Detection",
+      "desc": {
+        "short": "Un système simple permettant de détecter des comportements utilisateurs anormaux.",
+        "long": ""
+      }
+    }
+  }
 }

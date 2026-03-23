@@ -59,6 +59,7 @@ const ExperiencePage = () => {
 		);
 		return counts;
 	}, [filtered]);
+	
 
 	return (
 		<div>
@@ -112,7 +113,7 @@ const ExperiencePage = () => {
 								<div className="flex flex-wrap items-start justify-between gap-3">
 									<div>
 										<h3 className="font-bold text-text-primary">
-											{item.label}
+											{t.pages.experience.list[item.label as keyof typeof t.pages.experience.list].label}
 										</h3>
 										<p className="text-sm text-text-secondary mt-0.5">
 											{item.company}

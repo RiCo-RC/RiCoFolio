@@ -2,5 +2,28 @@
 	"heroTitle": "Expériences",
 	"heroDescription": "Expériences professionnelles, stages et projets concrets en environnement réel.",
 	"filterTitle": "Filtrer les expériences",
-	"labelFilter": "expériences"
+	"labelFilter": "expériences",
+	"list": {
+		"stage-serfa": {
+			"label": "Stage de formation - Développeur Full Stack - Application de gestion d'entreprise",
+			"tasks": [
+				"Conception et développement d’une application de gestion interne (architecture complète).",
+				"Développement du backend en Spring Boot : API REST sécurisées, gestion des rôles et authentification.",
+				"Réalisation du frontend en ReactJS/TypeScript : interfaces responsives, formulaires, intégration API.",
+				"Conception et administration de la base de données PostgreSQL (schéma, migrations, optimisation des requêtes).",
+				"Mise en place de bonnes pratiques : documentation, tests unitaires/intégration."
+			]
+		},
+		"stage-greta": {
+			"label": "Stage de formation - Chef de projet & Développeur – Refonte du site e-commerce",
+			"tasks": [
+				"Pilotage du projet de refonte et création complète d’un site e-commerce.",
+				"Coordination d’une équipe (répartition des tâches, suivi de l’avancement).",
+				"Conception et intégration du design (maquettes, identité visuelle, ergonomie).",
+				"Développement et personnalisation sous WordPress/WooCommerce (thèmes, plugins, optimisation).",
+				"Mise en place des fonctionnalités e-commerce (catalogue produits, paiement en ligne, gestion des commandes).",
+				"Préparation du lancement en ligne et optimisation SEO de base."
+			]
+		}
+	}
 }

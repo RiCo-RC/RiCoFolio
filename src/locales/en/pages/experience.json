@@ -2,5 +2,28 @@
 	"heroTitle": "Experience",
 	"heroDescription": "Professional experience, internships and hands-on projects in real-world environments.",
 	"filterTitle": "Filter experience",
-	"labelFilter": "experience"
+	"labelFilter": "experience",
+	"list": {
+		"stage-serfa": {
+			"label": "Training Internship - Full Stack Developer - Business Management Application",
+			"tasks": [
+				"Design and development of an internal management application (full architecture).",
+				"Backend development using Spring Boot: secure REST APIs, role management, and authentication.",
+				"Frontend development using ReactJS/TypeScript: responsive interfaces, forms, API integration.",
+				"Design and administration of the PostgreSQL database (schema, migrations, query optimization).",
+				"Implementation of best practices: documentation, unit/integration testing."
+			]
+		},
+		"stage-greta": {
+			"label": "Training Internship - Project Manager & Developer – E-commerce Website Redesign",
+			"tasks": [
+				"Led the website redesign project and full creation of an e-commerce site.",
+				"Coordinated a team (task allocation, progress tracking).",
+				"Designed and integrated the UI/UX (mockups, visual identity, usability).",
+				"Developed and customized using WordPress/WooCommerce (themes, plugins, optimization).",
+				"Implemented e-commerce features (product catalog, online payments, order management).",
+				"Prepared the site for launch and performed basic SEO optimization."
+			]
+		}
+	}
 }

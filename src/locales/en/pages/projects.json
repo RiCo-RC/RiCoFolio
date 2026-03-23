@@ -10,6 +10,76 @@
 				"short": "A personal portfolio showcasing my projects, skills, and experience in software development, cybersecurity, and AI, featuring a modern, responsive, and performance-oriented interface.",
 				"long": ""
 			}
+		},
+		"ricofolio2": {
+			"title": "RiCoFolio V2",
+			"desc": {
+				"short": "A personal portfolio showcasing my projects, skills, and experience in software development, cybersecurity, and AI, featuring a modern, responsive, and performance-oriented interface.",
+				"long": ""
+			}
+		},
+		"candy": {
+			"title": "Candy",
+			"desc": {
+				"short": "Training project - Development of a mobile game similar to Candy Crush.",
+				"long": ""
+			}
+		},
+		"password-checker": {
+			"title": "Password Strength Checker",
+			"desc": {
+				"short": "A simple tool to analyze password strength and detect common weaknesses.",
+				"long": ""
+			}
+		},
+		"port-scanner": {
+			"title": "Mini Port Scanner",
+			"desc": {
+				"short": "A basic port scanner to detect open ports on a machine.",
+				"long": ""
+			}
+		},
+		"phishing-detector": {
+			"title": "Phishing URL Detector",
+			"desc": {
+				"short": "A tool that analyzes URLs to detect phishing attempts.",
+				"long": ""
+			}
+		},
+		"simple-chatbot": {
+			"title": "Simple Chatbot",
+			"desc": {
+				"short": "A basic chatbot capable of answering simple questions.",
+				"long": ""
+			}
+		},
+		"sentiment-analysis": {
+			"title": "Sentiment Analysis Tool",
+			"desc": {
+				"short": "A sentiment analysis tool to classify text as positive or negative.",
+				"long": ""
+			}
+		},
+		"spam-classifier": {
+			"title": "Spam Email Classifier",
+			"desc": {
+				"short": "An email classifier that detects spam messages.",
+				"long": ""
+			}
+		},
+		"smart-spam-detector": {
+			"title": "Smart Spam Detector",
+			"desc": {
+				"short": "A spam detector combining cybersecurity and machine learning.",
+				"long": ""
+			}
+		},
+		"user-anomaly-detection": {
+			"title": "User Anomaly Detection",
+			"desc": {
+				"short": "A simple system to detect abnormal user behavior.",
+				"long": ""
+			}
 		}
 	}
 }

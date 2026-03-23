@@ -28,6 +28,10 @@ const EduExpModal = ({ item, onClose }: EduExpModalProps) => {
 		? (item as Education).schoolUrl
 		: (item as Experience).companyUrl;
 
+	const experienceKey = item.label as keyof typeof t.pages.experience.list;
+	const currentTranslation = t.pages.experience.list[experienceKey];
+	const currentTaks = currentTranslation.tasks;
+
 	return (
 		<Modal
 			open={!!item}
@@ -93,13 +97,13 @@ const EduExpModal = ({ item, onClose }: EduExpModalProps) => {
 					</p>
 				)}
 
-				{item.tasks && item.tasks.length > 0 && (
+				{currentTaks && currentTaks.length > 0 && (
 					<div>
 						<p className="text-xs font-mono text-text-secondary uppercase tracking-widest mb-2">
 							{t.global.common.tasks}
 						</p>
 						<ul className="flex flex-col gap-1.5">
-							{item.tasks.map((task, i) => (
+							{currentTaks.map((task, i) => (
 								<li
 									key={i}
 									className="flex items-start gap-2 text-sm text-text-primary"
