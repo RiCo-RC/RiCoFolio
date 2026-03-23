@@ -141,7 +141,7 @@ const ProjectsPage = () => {
 							<Card hover glow className="h-full">
 								<div className="flex items-start justify-between gap-2 flex-wrap">
 									<h3 className="font-bold text-text-primary text-base">
-										{t.pages.projects.list[project.title].title}
+										{t.pages.projects.list[project.title as keyof typeof t.pages.projects.list].title}
 									</h3>
 									<div className="flex flex-wrap gap-1">
 										{project.profile.map((p) => (
@@ -155,7 +155,7 @@ const ProjectsPage = () => {
 									</div>
 								</div>
 								<p className="text-sm text-text-secondary leading-relaxed flex-1">
-									{t.pages.projects.list[project.title].desc.short}
+									{t.pages.projects.list[project.title as keyof typeof t.pages.projects.list].desc.short}
 								</p>
 								<div className="flex flex-wrap gap-1.5">
 									{project.techs.slice(0, 5).map((tech) => (
