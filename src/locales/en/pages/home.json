@@ -1,0 +1,29 @@
+{
+	"heroTitle": "Christopher Rieffel",
+	"heroAlias": "alias RiCo",
+	"heroTagline": "Developer · Cybersecurity · AI",
+	"heroDescription": "Autodidact builder passionate about security, code, and intelligent systems. I design tools that push boundaries — from OSINT dashboards to AI-powered pipelines.",
+	"heroStatus": "Grand-Est, France · Available",
+	"heroCta": "Explore my work",
+	"heroCtaProfile": "About me",
+	"statsTitle": "By the numbers",
+	"statsProjects": "Projects",
+	"statsSkills": "Skills",
+	"statsArticles": "Articles",
+	"statsContributions": "GitHub commits",
+	"newsTitle": "Latest updates",
+	"newsFilter": "Filter by category",
+	"newsAll": "All",
+	"testimonialsTitle": "What people say",
+	"opportunitiesTitle": "Open to opportunities",
+	"opportunitiesDescription": "Looking for a CDD/CDI/Interim in software development and a work-study contract in cybersecurity.",
+	"opportunitiesCta": "Get in touch",
+	"hero": {
+		"tags": {
+			"dev": "Developer",
+			"cyber": "Cybersecurity",
+			"ai": "AI",
+			"project_manager": "Project Manager"
+		}
+	}
+}

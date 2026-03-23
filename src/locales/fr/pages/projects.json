@@ -1,0 +1,15 @@
+{
+	"heroTitle": "Projets",
+	"heroDescription": "Une sélection de projets personnels et professionnels en développement, cybersécurité et IA.",
+	"filterTitle": "Filtrer les projets",
+	"totalProjects": "projets",
+	"list": {
+		"ricofolio": {
+			"title": "RiCoFolio",
+			"desc": {
+				"short": "Portfolio personnel présentant mes projets, compétences et expériences en développement, cybersécurité et IA, avec une interface moderne, responsive et orientée performance.",
+				"long": ""
+			}
+		}
+	}
+}

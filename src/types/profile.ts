@@ -1,0 +1,1 @@
+export type Profile = "hybrid" | "dev" | "cyber" | "ai" | "project manager";

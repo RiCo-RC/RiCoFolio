@@ -1,0 +1,16 @@
+{
+	"label": {
+		"hybrid": "Hybride",
+		"dev": "Dev",
+		"cyber": "Cyber",
+		"ai": "IA",
+		"project manager": "Chef de projet"
+	},
+	"desc": {
+		"hybrid": "Afficher tous les domaines",
+		"dev": "Focus développement",
+		"cyber": "Focus cybersécurité",
+		"ai": "Focus intelligence artificielle",
+		"project manager": "Focus chef de projet"
+	}
+}

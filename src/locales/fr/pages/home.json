@@ -1,0 +1,29 @@
+{
+	"heroTitle": "Christopher Rieffel",
+	"heroAlias": "alias RiCo",
+	"heroTagline": "Développeur · Cybersécurité · IA",
+	"heroDescription": "Développeur autodidacte passionné par la sécurité, le code et les systèmes intelligents. Je conçois des outils qui repoussent les limites — des dashboards OSINT aux pipelines IA.",
+	"heroStatus": "Grand-Est, France · Disponible",
+	"heroCta": "Explorer mes projets",
+	"heroCtaProfile": "À propos",
+	"statsTitle": "En chiffres",
+	"statsProjects": "Projets",
+	"statsSkills": "Compétences",
+	"statsArticles": "Articles",
+	"statsContributions": "Commits GitHub",
+	"newsTitle": "Dernières actualités",
+	"newsFilter": "Filtrer par catégorie",
+	"newsAll": "Tout",
+	"testimonialsTitle": "Ce qu'on dit de moi",
+	"opportunitiesTitle": "Ouvert aux opportunités",
+	"opportunitiesDescription": "Je recherche un CDD/CDI/Intérim en développement informatique et une alternance en cybersécurité.",
+	"opportunitiesCta": "Me contacter",
+	"hero": {
+		"tags": {
+			"dev": "Développeur",
+			"cyber": "Cybersécurité",
+			"ai": "AI",
+			"project_manager": "Chef de projet"
+		}
+	}
+}

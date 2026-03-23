@@ -1,0 +1,19 @@
+{
+	"title": "Credits",
+	"stack": "Tech Stack",
+	"design": "Design & Inspiration",
+	"stackItems": [
+		"Next.js 15 — React framework",
+		"Tailwind CSS v4 — Utility-first CSS",
+		"Framer Motion — Animations",
+		"Zustand — State management",
+		"Lucide React — Icons",
+		"Space Grotesk — Sans-serif font",
+		"JetBrains Mono — Monospace font"
+	],
+	"designItems": [
+		"Cyber / futurist aesthetic inspired by terminal UIs",
+		"Dark-first design with accessibility-first approach",
+		"Multi-profile system — original concept"
+	]
+}

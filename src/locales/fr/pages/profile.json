@@ -1,0 +1,45 @@
+{
+	"heroTitle": "Christopher Rieffel",
+	"heroAlias": "alias RiCo",
+	"heroLocation": "Grand-Est, France",
+	"heroTagline": "Développeur · Cybersécurité · IA",
+	"heroDescription": "Développeur autonome et autodidacte avec un esprit de recherche. Passionné par la cybersécurité, l'IA et l'intersection entre technologie et culture. Toujours en apprentissage, toujours en création.",
+	"available": "Disponible",
+	"availableDesc": "Ouvert aux opportunités — voir ce que je recherche",
+	"lookingFor": "Ce que je recherche",
+	"lookingForDev": "CDD / CDI / Intérim en développement informatique",
+	"lookingForCyber": "Alternance en cybersécurité",
+	"traitsTitle": "Traits & personnalité",
+	"passionsTitle": "Passions",
+	"languagesTitle": "Langues",
+	"travelsTitle": "Voyages",
+	"traits": [
+		"Autonome",
+		"Autodidacte",
+		"Curieux",
+		"Perfectionniste",
+		"Esprit de recherche",
+		"Partage des connaissances"
+	],
+	"passions": [
+		"Technologie & informatique",
+		"Cybersécurité & OSINT",
+		"Développement & expérimentation",
+		"Intelligence artificielle",
+		"Jeux vidéo (objectif : créer le sien)",
+		"Histoire asiatique & chinoise",
+		"Culture asiatique & chinoise",
+		"Animaux (fier propriétaire d'un chien)",
+		"Veille technologique"
+	],
+	"languages": [
+		{ "code": "fr", "name": "Français", "level": "Natif" },
+		{ "code": "en", "name": "Anglais", "level": "Professionnel" },
+		{ "code": "zh", "name": "Mandarin", "level": "En apprentissage" }
+	],
+	"travels": [
+		{ "city": "Budapest", "country": "Hongrie", "status": "visited" },
+		{ "city": "Shanghai", "country": "Chine", "status": "upcoming" },
+		{ "city": "Hengdian", "country": "Chine", "status": "upcoming" }
+	]
+}

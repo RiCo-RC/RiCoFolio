@@ -1,0 +1,38 @@
+import type { Education } from "@src/types";
+
+export const education: Education[] = [
+	{
+		id: "e2",
+		slug: "uha-serfa",
+		label: "Développeur d'applications orientés objets",
+		school: "Université de Haute-Alsace - Serfa",
+		startDate: "2024-09",
+		endDate: "2025-07",
+		isAlternance: false,
+		hasInternship: false,
+		internshipDuration: "0",
+		profile: ["dev"],
+		description: "",
+		location: "Grand-Est, France",
+		tasks: [],
+		learnings: [],
+		resources: [],
+	},
+	{
+		id: "e1",
+		slug: "greta",
+		label: "Développeur web et mobile",
+		school: "Greta Sud Alsace",
+		startDate: "2023-08",
+		endDate: "2024-06",
+		isAlternance: false,
+		hasInternship: false,
+		internshipDuration: "0",
+		profile: ["dev"],
+		description: "",
+		location: "Grand-Est, France",
+		tasks: [],
+		learnings: [],
+		resources: [],
+	},
+];

@@ -1,0 +1,45 @@
+{
+	"heroTitle": "Christopher Rieffel",
+	"heroAlias": "alias RiCo",
+	"heroLocation": "Grand-Est, France",
+	"heroTagline": "Developer · Cybersecurity · AI",
+	"heroDescription": "Autonomous and self-taught developer with a research mindset. Passionate about cybersecurity, AI and the intersection of technology and culture. Always learning, always building.",
+	"available": "Available",
+	"availableDesc": "Open to opportunities — see what I'm looking for",
+	"lookingFor": "What I'm looking for",
+	"lookingForDev": "CDD / CDI / Interim in software development",
+	"lookingForCyber": "Work-study contract in cybersecurity",
+	"traitsTitle": "Traits & personality",
+	"passionsTitle": "Passions",
+	"languagesTitle": "Languages",
+	"travelsTitle": "Travels",
+	"traits": [
+		"Autonomous",
+		"Self-taught",
+		"Curious",
+		"Perfectionist",
+		"Research-driven",
+		"Knowledge sharer"
+	],
+	"passions": [
+		"Technology & computing",
+		"Cybersecurity & OSINT",
+		"Development & experimentation",
+		"Artificial Intelligence",
+		"Video games (goal: create my own)",
+		"Asian & Chinese history",
+		"Asian & Chinese culture",
+		"Animals (proud dog owner)",
+		"Tech news & watch"
+	],
+	"languages": [
+		{ "code": "fr", "name": "French", "level": "Native" },
+		{ "code": "en", "name": "English", "level": "Professional" },
+		{ "code": "zh", "name": "Mandarin Chinese", "level": "Learning" }
+	],
+	"travels": [
+		{ "city": "Budapest", "country": "Hungary", "status": "visited" },
+		{ "city": "Shanghai", "country": "China", "status": "upcoming" },
+		{ "city": "Hengdian", "country": "China", "status": "upcoming" }
+	]
+}
