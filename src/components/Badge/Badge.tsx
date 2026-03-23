@@ -4,10 +4,11 @@ import { cn } from "@src/lib";
 import type { Profile, Status } from "@src/types";
 
 const profileColors: Record<Profile, string> = {
-	hybrid: "bg-accent-hybrid/15 text-accent-hybrid border-accent-hybrid/30",
-	dev: "bg-accent-dev/15 text-accent-dev border-accent-dev/30",
-	cyber: "bg-accent-cyber/15 text-accent-cyber border-accent-cyber/30",
-	ai: "bg-accent-ai/15 text-accent-ai border-accent-ai/30",
+  hybrid: "bg-accent-hybrid/15 text-accent-hybrid border-accent-hybrid/30",
+  dev: "bg-accent-dev/15 text-accent-dev border-accent-dev/30",
+  cyber: "bg-accent-cyber/15 text-accent-cyber border-accent-cyber/30",
+  ai: "bg-accent-ai/15 text-accent-ai border-accent-ai/30", 
+  "project manager": "bg-accent-project-manager/15 text-accent-project-manager border-accent-project-manager/30", 
 };
 
 const statusColors: Record<Status, string> = {
