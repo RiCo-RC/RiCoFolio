@@ -3,8 +3,8 @@
 import { ExternalLink, Github, Code2, Globe, Play, Mail } from "lucide-react";
 
 import { Modal, Badge, Button } from "@src/components";
-import { useT, formatDate } from '@src/lib';
-import { useAppStore } from '@src/stores';
+import { useT, formatDate } from "@src/lib";
+import { useAppStore } from "@src/stores";
 import type { Project } from "@src/types";
 
 interface ProjectModalProps {
@@ -16,6 +16,9 @@ const ProjectModal = ({ project, onClose }: ProjectModalProps) => {
 	const t = useT();
 	const { language } = useAppStore();
 	if (!project) return null;
+
+	const projectKey = project.title as keyof typeof t.pages.projects.list;
+	const currentTranslation = t.pages.projects.list[projectKey];
 
 	return (
 		<Modal
@@ -74,13 +77,13 @@ const ProjectModal = ({ project, onClose }: ProjectModalProps) => {
 							>
 								<Play size={14} />
 								{t.global.common.viewDemo}
-							</Button>	
+							</Button>
 						)}
 					</div>
 				</div>
 
 				<p className="text-text-secondary leading-relaxed">
-					{t.pages.projects.list[project.title].desc.long || t.pages.projects.list[project.title].desc.short}
+					{currentTranslation.desc.long || currentTranslation.desc.short}
 				</p>
 
 				<div>
@@ -146,9 +149,7 @@ const ProjectModal = ({ project, onClose }: ProjectModalProps) => {
 									<span className="font-medium text-text-primary">
 										{m.name}
 									</span>
-									<span className="text-text-secondary">
-										— {m.role}
-									</span>
+									<span className="text-text-secondary">— {m.role}</span>
 								</div>
 							))}
 						</div>
@@ -166,9 +167,7 @@ const ProjectModal = ({ project, onClose }: ProjectModalProps) => {
 									<span className="font-mono text-accent shrink-0">
 										{formatDate(h.date, language)}
 									</span>
-									<span className="text-text-secondary">
-										{h.event}
-									</span>
+									<span className="text-text-secondary">{h.event}</span>
 								</div>
 							))}
 						</div>
