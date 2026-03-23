@@ -6,8 +6,6 @@ import { SUPPORTED_LANGS, type SupportedLang } from "./routes";
 import { useAppStore } from "@src/stores";
 import { Component } from "@/src/types";
 
-// -- WORK IN PROGRESS -- \\
-
 interface LangSyncProps {
 	lang: string;
 	children: ReactNode;
