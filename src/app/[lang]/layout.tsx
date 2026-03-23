@@ -3,36 +3,38 @@ import { ReactNode } from "react";
 import { SUPPORTED_LANGS, LangSync } from "@src/lib";
 
 export const generateStaticParams = async () =>
-  SUPPORTED_LANGS.map((lang) => ({ lang }));
+	SUPPORTED_LANGS.map((lang) => ({ lang }));
 
 export const generateMetadata = async ({
-  params,
+	params,
 }: {
-  params: { lang: string };
+	params: { lang: string };
 }): Promise<Metadata> => {
-  const { lang } = params; // pas d'await
-  return {
-    alternates: {
-      languages: SUPPORTED_LANGS.reduce((acc, cur) => {
-        acc[cur] = `/${cur}`;
-        return acc;
-      }, {} as Record<string, string>),
-    },
-    other: {
-      "content-language": lang,
-    },
-  };
+	const { lang } = params;
+	return {
+		alternates: {
+			languages: SUPPORTED_LANGS.reduce(
+				(acc, cur) => {
+					acc[cur] = `/${cur}`;
+					return acc;
+				},
+				{} as Record<string, string>,
+			),
+		},
+		other: {
+			"content-language": lang,
+		},
+	};
 };
 
 const LangLayout = ({
-  children,
-  params,
+	children,
+	params,
 }: {
-  children: ReactNode;
-  params: { lang: string };
+	children: ReactNode;
+	params: { lang: string };
 }) => {
-  const { lang } = params;
-  return <LangSync lang={lang}>{children}</LangSync>;
+	return <LangSync lang={params.lang}>{children}</LangSync>;
 };
 
 export default LangLayout;
